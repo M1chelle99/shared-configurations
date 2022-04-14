@@ -1,0 +1,74 @@
+{
+    "redhat.telemetry.enabled": true,
+    "xml.symbols.maxItemsComputed": 500000,
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "git.enableSmartCommit": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "editor.accessibilitySupport": "off",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "editor.largeFileOptimizations": false,
+    "editor.fontFamily": "Cascadia Code PL, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Cmder": {
+            "path": "${env:windir}\\System32\\cmd.exe",
+            "icon": "terminal-cmd",
+            "args": [
+                "/k",
+                "%CMDER_ROOT%\\vendor\\init.bat"
+            ],
+            "color": "terminal.ansiGreen",
+            "overrideName": true
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Cmder",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Light Pink",
+    "eslint.format.enable": true,
+    "typescript.format.insertSpaceAfterConstructor": true,
+    "javascript.format.semicolons": "insert",
+    "html.format.indentInnerHtml": true,
+    "typescript.format.semicolons": "insert",
+    "html.format.wrapAttributes": "force-expand-multiline",
+    "html.format.endWithNewline": true,
+    "window.zoomLevel": -1,
+    "editor.fontSize": 18,
+}
